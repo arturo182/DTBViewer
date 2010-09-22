@@ -1,5 +1,5 @@
 QT       += core gui
-TARGET    = DTBTest
+TARGET    = DTBViewer
 TEMPLATE  = app
 
 SOURCES += main.cpp \
