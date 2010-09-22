@@ -10,7 +10,7 @@ namespace DT
   class DTXor
   {
     public:
-      static QString encryptString(QByteArray key, QString text);
+      static QByteArray encryptString(int keyType, QByteArray str);
       static QByteArray decryptString(int keyType, QByteArray str);
 
       static char keyHistory[11];
